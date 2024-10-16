@@ -1,2 +1,2 @@
 # ifood-clone
-Repositório voltado a estudos sobre React Native
+Repositório voltado a estudos sobre React Native e NativeWind
