@@ -5,6 +5,7 @@ import { Search } from "../components/search";
 import { Section } from "../components/section";
 import { TrendingFoods } from "../components/trending";
 import { Restaurants } from "../components/restaurants";
+import { RestaurantVerticalList } from "../components/list";
 import Constants from "expo-constants";
 
 const statusBarHeight = Constants.statusBarHeight;
@@ -50,6 +51,7 @@ export default function Index() {
                 action={() => console.log("CLICOU NO RESTAURANTE")}
             />
             
+            <RestaurantVerticalList />
         </ScrollView>
     );
 }
